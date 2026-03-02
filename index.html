@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio Johan</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+   
+    <style>
+    
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar transparan awal */
+.navbar {
+  transition: 0.4s;
+}
+
+.navbar.scrolled {
+  background-color: #212529 !important;
+}
+
+/* Hover Effect Card */
+.card {
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Section spacing lebih lega */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Back to top button */
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  z-index: 99;
+}
+
+</style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Johan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#profil">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#layanan">Layanan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portofolio">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimoni">Testimoni</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ================= PROFIL ================= -->
+<section id="profil" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Kolom Foto -->
+      <div class="col-md-6 text-center">
+        <img src="johan.jpg" 
+        class="img-fluid w-50 rounded mx-auto d-block" 
+        alt="Foto Johan">
+      </div>
+
+      <!-- Kolom Deskripsi -->
+      <div class="col-md-6 text-start">
+        <h2 class="mb-3">Johan Keistofel Dappa</h2>
+        <p>
+          Saya siswa kelas 11 SMK Don Bosco Sumba jurusan TKJ.
+          Saya memiliki pengalaman dalam instalasi LAN, crimping kabel,
+          dan konfigurasi jaringan menggunakan Cisco Packet Tracer.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ================= LAYANAN ================= -->
+<section id="layanan" class="py-5 bg-light">
+  <div class="container">
+    
+    <!-- Judul -->
+    <div class="text-center mb-5">
+      <h2>Layanan Saya</h2>
+      <p>Beberapa layanan yang saya kuasai di bidang IT</p>
+    </div>
+
+    <div class="row">
+      
+      <!-- Layanan 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Instalasi Jaringan LAN</h5>
+            <p class="card-text">
+              Melakukan instalasi kabel LAN, crimping kabel UTP,
+              serta konfigurasi jaringan dasar.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Layanan 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Konfigurasi Router</h5>
+            <p class="card-text">
+              Konfigurasi IP Address, DHCP, dan routing
+              menggunakan Cisco Packet Tracer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Layanan 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Instalasi Sistem Operasi</h5>
+            <p class="card-text">
+              Instalasi Windows dan software pendukung
+              sesuai kebutuhan pengguna.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+<!-- ================= PORTOFOLIO + PROGRES SKILL ================= -->
+<section id="portofolio" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>Portofolio & Progres Skill</h2>
+      <p>Beberapa proyek yang pernah saya kerjakan dan tingkat kemampuan saya</p>
+    </div>
+
+    <!-- ======= Portofolio ======= -->
+    <div class="row mb-5">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="project1.jpg" class="card-img-top" alt="Proyek 1">
+          <div class="card-body">
+            <h5 class="card-title">Instalasi Jaringan LAN</h5>
+            <p class="card-text">Membuat jaringan LAN di lab sekolah, crimping kabel UTP, konfigurasi dasar jaringan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="project2.jpg" class="card-img-top" alt="Proyek 2">
+          <div class="card-body">
+            <h5 class="card-title">Konfigurasi Router</h5>
+            <p class="card-text">Konfigurasi IP Address, DHCP, dan routing di Cisco Packet Tracer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="project3.jpg" class="card-img-top" alt="Proyek 3">
+          <div class="card-body">
+            <h5 class="card-title">Instalasi OS</h5>
+            <p class="card-text">Instalasi Windows dan software pendukung untuk beberapa komputer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Progres Skill ======= -->
+    <div class="skill">
+      <h4 class="mb-3">Progres Skill Saya</h4>
+
+      <div class="mb-3">
+        <h6>Instalasi Jaringan LAN</h6>
+        <div class="progress">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 90%;">90%</div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <h6>Konfigurasi Router</h6>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <h6>Instalasi Sistem Operasi</h6>
+        <div class="progress">
+          <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;">50%</div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <h6>Konfigurasi WiFi</h6>
+        <div class="progress">
+          <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;">75%</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ================= TESTIMONI ================= -->
+<section id="testimoni" class="py-5">
+  <div class="container">
+    
+    <!-- Judul -->
+    <div class="text-center mb-5">
+      <h2>Testimoni</h2>
+      <p>Apa kata guru dan teman tentang saya</p>
+    </div>
+
+    <div class="row">
+      
+      <!-- Testimoni 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">
+              "Johan sangat cepat memahami materi jaringan dan mampu mengerjakan konfigurasi dengan baik."
+            </p>
+            <h6 class="mt-3 mb-0">- Guru TKJ</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimoni 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <p class="card-text">
+              "Selalu membantu teman saat teman membutuhkan bantuan seperti mambantu dalam konfigurasi router, dll."
+            </p>
+            <h6 class="mt-3 mb-0">- Teman Sekelas</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><section id="kontak" class="py-5">
+  <div class="container text-center">
+
+    <h2 class="mb-3">Hubungi Saya</h2>
+    <p class="mb-4">Silakan hubungi saya melalui WhatsApp</p>
+
+    <a href="https://wa.me/6281237306648" target="_blank" class="btn btn-success btn-lg">
+      <i class="bi bi-whatsapp"></i> Chat via WhatsApp
+    </a>
+
+  </div>
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p class="mb-1">© 2026 Johan Keistofel Dappa</p>
+    <small>Website Portofolio Siswa TKJ</small>
+  </div>
+</footer>
+<button onclick="topFunction()" id="topBtn" class="btn btn-primary">
+  ↑
+</button>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<script>
+
+// Navbar berubah warna saat scroll
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("scrolled", window.scrollY > 50);
+});
+
+// Tombol back to top
+const topBtn = document.getElementById("topBtn");
+
+window.onscroll = function() {
+  if (document.documentElement.scrollTop > 200) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+};
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+<a href="https://wa.me/6281237306648" 
+   class="btn btn-success rounded-circle"
+   style="position: fixed; bottom: 90px; right: 30px; width: 55px; height: 55px; font-size: 24px; display: flex; align-items: center; justify-content: center; z-index: 99;"
+   target="_blank">
+   <i class="bi bi-whatsapp"></i>
+</a>
+</body>
+</html>
